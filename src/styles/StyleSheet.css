@@ -1,0 +1,90 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+
+}
+
+.Header {
+    font-family: 'Poppins';
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.Header>p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Body {
+    margin-top: 20px;
+    align-content: center;
+}
+
+.DottedBox {
+    height: 300px;
+    width: 80%;
+    margin-top: 20px;
+    background: #F6F8FB;
+    border: 1px dashed #97BEF4;
+    box-sizing: border-box;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.BoxText {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+
+
+}
+
+.BoxIcon {
+    margin-top: 35px;
+    font-size: 200px;
+}
+
+.BoxImage {
+
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.Footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.InputLabel {
+    font-family: 'Noto Sans';
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 8px;
+    cursor: pointer;
+    background: #2F80ED;
+    font-size: 19px;
+    border-radius: 8px;
+    font-weight: 500;
+
+}
+
+.InputLabel:hover {
+    background-color: #2f81ed77
+}
+
+input[type="file"] {
+    display: none;
+}
