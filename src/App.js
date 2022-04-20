@@ -27,9 +27,11 @@ function App() {
       </div>
       <div className='DottedBox'>
         <div className='BoxText'>
-          {imageURLs.map(imageSrc => <img src={imageSrc} className='BoxImage'/>)}
-          <FaImage className='BoxIcon' />
-          <p>Drag & Drop your image here</p>
+          {imageURLs.map(imageSrc => <img src={imageSrc} className='BoxImage' />)}
+          <div style={{ display: !!imageURLs.length ? "none" : "block" }}>
+            <FaImage className='BoxIcon' />
+            <p>Drag & Drop your image here</p>
+          </div>
         </div>
       </div>
       <div className='Footer'>

@@ -42,24 +42,28 @@
 }
 
 .BoxText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
-
-
+    height: 100%;
+    width: 100%;
 }
 
 .BoxIcon {
+    position: relative;
     margin-top: 35px;
     font-size: 200px;
 }
 
 .BoxImage {
-
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
+    border-radius: 12px;
 
 }
 
